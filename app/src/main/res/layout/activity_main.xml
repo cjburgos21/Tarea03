@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<TableRow
+    android:layout_weight="1"
+    >
+    <LinearLayout
+        android:background="#00BFA5"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+
+        android:id="@+id/conf"
+        android:src="@drawable/build"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Configuracion"
+        android:textSize="20dp"
+        android:textColor="#F8FBEF"
+        />
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+
+            android:id="@+id/perf"
+            android:src="@drawable/account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/perf"
+            android:text="Perfil"
+            android:textSize="20dp"
+            android:textColor="#F8FBEF"
+            />
+
+    </LinearLayout>
+
+
+</TableRow>
+
+    <TableRow
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:background="#01579B"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/favoritos"
+                android:src="@drawable/favourite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Favoritos"
+                android:textSize="20dp"
+                android:textColor="#F8FBEF"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="#9C27B0"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:id="@+id/ingresos"
+                android:src="@drawable/money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Ingresos"
+                android:textColor="#F8FBEF"
+                />
+
+        </LinearLayout>
+
+
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:background="#FF8F00"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:src="@drawable/wallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="Configuracion"
+                android:textColor="#F8FBEF"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="#DD2C00"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+
+                android:src="@drawable/expenses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Perfil"
+                android:textSize="20dp"
+                android:textColor="#F8FBEF"
+                />
+
+        </LinearLayout>
+
+
+    </TableRow>
+
+</TableLayout>
